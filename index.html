@@ -101,11 +101,12 @@
   .navbar {
       font-family: Montserrat, sans-serif;
       margin-bottom: 0;
-      background-color: #2d2d30;
+      background-color: black;
       border: 0;
-      font-size: 11px !important;
+      font-size: 18px !important;
       letter-spacing: 4px;
-      opacity: 0.9;
+      padding: 20px;
+      text-align: center;
   }
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;
@@ -148,6 +149,18 @@
   textarea {
       resize: none;
   }
+  #bandName {
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .navbar-header {
+    text-align: center;
+    align-content: center;
+  }
+  #tour {
+    padding-top: 0%;
+  }
   </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -160,7 +173,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">THE REMYZ</a>
+      <a class="navbar-brand" id="bandName" href="#myPage"><b>REMYZ</b></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -218,65 +231,10 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
-
-<!-- Container (The Band Section) -->
-<div id="band" class="container text-center">
-  <h3><strong>THE REMYZ</strong></h3>
-  <p><em>Bringing Funk, Energetic Music to South Florida</em></p>
-  <p>Through our music we hope to bring you an unforgettable night of dancing, singing, and a ton of funk. We are four high school friends who bonded over music and formed THE REMYZ in ####.Thank you for the love and we appreciate the support from our community. There are plenty of shows coming up!</p>
-  <br>
-  <div class="row">
-    <div class="col-sm-3">
-      <h3 class="text-center"><strong>Christian Rolon</strong></h3><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo" class="collapse">
-        <p>Rythm Guitarist</p>
-        <p>Back-up Vocals</p>
-        <p>Original Member</p>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <h3 class="text-center"><strong>Oscar Familia</strong></h3><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>Lead Guitarist</p>
-        <p>Back-up Vocals</p>
-        <p>Original Member</p>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <h3 class="text-center"><strong>Christian Martinez</strong></h3><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Bass player</p>
-        <p>Back-up Vocals</p>
-        <p>Original Member</p>
-      </div>
-    </div>
-    <div class="col-sm-3">
-        <h3 class="text-center"><strong>Avery Davis</strong></h3><br>
-        <a href="#demo3" data-toggle="collapse">
-          <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-        </a>
-      <div id="demo3" class="collapse">
-          <p>Lead Singer</p>
-          <p>Contagious Dancing</p>
-          <p>Member since 2005</p>
-      </div>
-    </div>
-  </div>
-</div>
-
 <!-- Container (TOUR Section) -->
 <div id="tour" class="bg-1">
   <div class="container">
-    <h3 class="text-center">UPCOMING SHOWS</h3>
+    <h3 class="text-center">SHOWS</h3>
     <p class="text-center">We are always adding new shows in venues all across South Florida<br> Keep up with us on Social Media for upcoming events!</p>
     
     <div class="row text-center">
@@ -342,6 +300,61 @@
     </div>
   </div>
 </div>
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3><strong>THE REMYZ</strong></h3>
+  <p><em>Bringing Funk, Energetic Music to South Florida</em></p>
+  <p>Through our music we hope to bring you an unforgettable night of dancing, singing, and a ton of funk. We are four high school friends who bonded over music and formed THE REMYZ in ####.Thank you for the love and we appreciate the support from our community. There are plenty of shows coming up!</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-3">
+      <h3 class="text-center"><strong>Christian Rolon</strong></h3><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo" class="collapse">
+        <p>Rythm Guitarist</p>
+        <p>Back-up Vocals</p>
+        <p>Original Member</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <h3 class="text-center"><strong>Oscar Familia</strong></h3><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo2" class="collapse">
+        <p>Lead Guitarist</p>
+        <p>Back-up Vocals</p>
+        <p>Original Member</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <h3 class="text-center"><strong>Christian Martinez</strong></h3><br>
+      <a href="#demo3" data-toggle="collapse">
+        <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+      </a>
+      <div id="demo3" class="collapse">
+        <p>Bass player</p>
+        <p>Back-up Vocals</p>
+        <p>Original Member</p>
+      </div>
+    </div>
+    <div class="col-sm-3">
+        <h3 class="text-center"><strong>Avery Davis</strong></h3><br>
+        <a href="#demo3" data-toggle="collapse">
+          <img src="bandmember.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        </a>
+      <div id="demo3" class="collapse">
+          <p>Lead Singer</p>
+          <p>Contagious Dancing</p>
+          <p>Member since 2005</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container">
